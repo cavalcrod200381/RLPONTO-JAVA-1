@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.sistema.ponto:sistema-de-ponto:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for com.zkteco:zkfinger-sdk:jar should not point at files within the project directory, ${basedir}/lib/ZKFingerReader.jar will be unresolvable by dependent projects @ line 25, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------< com.sistema.ponto:sistema-de-ponto >-----------------
+[INFO] Building sistema-de-ponto 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sistema-de-ponto ---
+[INFO] Deleting C:\Users\Richardson\Documents\projeto-sistema-de-ponto\target
+[INFO] 
+[INFO] --- resources:3.3.1:copy-resources (copy-dlls) @ sistema-de-ponto ---
+[INFO] Copying 36 resources from lib\dll\sdk to target\lib\dll\sdk
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sistema-de-ponto ---
+[INFO] Copying 36 resources from lib\dll\sdk to target\classes\lib\dll\sdk
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ sistema-de-ponto ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to C:\Users\Richardson\Documents\projeto-sistema-de-ponto\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sistema-de-ponto ---
+[INFO] skip non existing resourceDirectory C:\Users\Richardson\Documents\projeto-sistema-de-ponto\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ sistema-de-ponto ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ sistema-de-ponto ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ sistema-de-ponto ---
+[INFO] Building jar: C:\Users\Richardson\Documents\projeto-sistema-de-ponto\target\sistema-de-ponto-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- assembly:3.3.0:single (make-assembly) @ sistema-de-ponto ---
+[INFO] Building jar: C:\Users\Richardson\Documents\projeto-sistema-de-ponto\target\sistema-de-ponto-1.0-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.515 s
+[INFO] Finished at: 2025-05-28T12:42:11-04:00
+[INFO] ------------------------------------------------------------------------
