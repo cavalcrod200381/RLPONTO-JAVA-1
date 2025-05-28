@@ -73,4 +73,4 @@ Para informações sobre licenciamento comercial:
 
 - Email: contato@ainexus.com.br
 - Issues: Utilize o sistema de issues do GitHub
-- Horário: Segunda a Sexta, 9h às 18h 
+- Horário: Segunda a Sexta, 9h às 18h
